@@ -87,7 +87,7 @@
                     <td class="vertical-center"><?php echo $alamat.", ".$alamatKota.", ".$alamatProvinsi.", ".$alamatKodePos ?></td>
                     <td class="vertical-center"><?php echo $jenisKelamin ?></td>
                     <td class="vertical-center"><?php foreach ($hobi as $val) {
-                        echo $val;
+                        echo $val.", ";
                     } ?></td>
                     <td class="vertical-center"><?php echo $alasan ?></td>
                     <td class="vertical-center"><?php move_uploaded_file($tmpFile, "./".$namaFile); ?><img src="<?php echo $namaFile ?>" alt="" class="pas-foto"></td>
