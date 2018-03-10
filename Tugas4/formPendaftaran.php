@@ -112,19 +112,19 @@
             <div class="form-group">
                 <label for="#">Hobi</label>
                 <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="bermainDiLuar" name="hobi[]">
+                    <input type="checkbox" class="custom-control-input" id="bermainDiLuar" name="hobi[]" value="Bermain di Luar">
                     <label class="custom-control-label" for="bermainDiLuar">Bermain di Luar</label>
                 </div>
                 <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="bermainDiDalam" name="hobi[]">
+                    <input type="checkbox" class="custom-control-input" id="bermainDiDalam" name="hobi[]" value="Bermain di Dalam">
                     <label class="custom-control-label" for="bermainDiDalam">Bermain di Dalam</label>
                 </div>
                 <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="tanamanHolic" name="hobi[]">
+                    <input type="checkbox" class="custom-control-input" id="tanamanHolic" name="hobi[]" value="tanamanHolic">
                     <label class="custom-control-label" for="tanamanHolic">Tanaman Holic</label>
                 </div>
                 <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="tiduranAja" name="hobi[]">
+                    <input type="checkbox" class="custom-control-input" id="tiduranAja" name="hobi[]"value="Tiduran Aja">
                     <label class="custom-control-label" for="tiduranAja">Tiduran Aja</label>
                 </div>
             </div>
