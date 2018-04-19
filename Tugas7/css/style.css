@@ -1,0 +1,153 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.label-file-upload{
+	margin-top: -40px;
+}
+.card-image:hover .overlay {
+	opacity: 1;
+}
+.overlay {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: rgba(0,0,0,0.75);
+	z-index: 10;
+}
+
+.cbcc-color{
+	background-color: #003368 !important;
+}
+.cbcc-text{
+	color: #003368 !important;
+}
+.overflow-berita{
+	max-height: 300px;
+	padding-right: 10px;
+	overflow-y: scroll;
+}
+.overflow-berita p{
+	text-align: left;
+	line-height: 150%;
+	padding-bottom: 10px;
+}
+.tanggal-card {
+	margin-top: -10px !important;
+	margin-bottom: 10px !important;
+}
+.parallax-w {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.menuu{
+	font-size: 18px;
+}
+.tombol{
+	margin-bottom: 40px;
+	background-color: transparent;
+	padding: 10px 32px;
+	text-align: center;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	border: solid 2px #FBC02D;
+	border-radius: 5px;
+	color: #FBC02D;
+}
+.tombol:hover{
+	background-color: #FBC02D;
+	color: #182BF9;
+}
+.hr{
+	margin-top: 0px;
+	width: 150px;
+	border:solid rgba(255,255,255,0.20) 2px;
+	border-right-radius: 10px;
+}
+.logo-header{
+	height: 150px;
+}
+.logo-pojok{
+	margin-left: 150px;
+	margin-top: 5px;
+	font-size: 25px;
+}
+
+.font {
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.card-login{
+	width: 80%;
+}
+
+.parallax-container {
+  min-height: 100px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+	.parallax-container .section {
+    	position: absolute;
+    	top: 40%;
+  	}
+	#index-banner .section {
+		top: 10%;
+	}
+	.logo-pojok{
+		margin-left: 0px;
+		font-size: 20px;
+	}
+	.card-login{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+  	#index-banner .section {
+    	top: 0;
+  	}
+	.logo-header{
+		margin-top: 50px;
+		height: 100px;
+	}
+
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*owl carousel */
+.owl-theme .owl-dots,.owl-theme .owl-nav{text-align:center;-webkit-tap-highlight-color:transparent}.owl-theme .owl-nav{margin-top:10px}.owl-theme .owl-nav [class*=owl-]{color:#FFF;font-size:14px;margin:5px;padding:4px 7px;background:#D6D6D6;display:inline-block;cursor:pointer;border-radius:3px}.owl-theme .owl-nav [class*=owl-]:hover{background:#869791;color:#FFF;text-decoration:none}.owl-theme .owl-nav .disabled{opacity:.5;cursor:default}.owl-theme .owl-nav.disabled+.owl-dots{margin-top:10px}.owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1}.owl-theme .owl-dots .owl-dot span{width:10px;height:10px;margin:5px 7px;background:#D6D6D6;display:block;-webkit-backface-visibility:visible;transition:opacity .2s ease;border-radius:30px}.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#869791}
